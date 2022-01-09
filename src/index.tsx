@@ -1,12 +1,12 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import './index.css'
-import { BrowserRouter } from 'react-router-dom'
-import App from './App'
-import reportWebVitals from './reportWebVitals'
-import { RecoilRoot } from 'recoil'
-import { SnackbarProvider } from 'notistack'
-import { RecoilDebugger } from '@utils'
+import React from "react"
+import ReactDOM from "react-dom"
+import "./index.css"
+import { BrowserRouter } from "react-router-dom"
+import App from "./App"
+import reportWebVitals from "./reportWebVitals"
+import { RecoilRoot } from "recoil"
+import { SnackbarProvider } from "notistack"
+import { RecoilDebugger } from "@utils"
 
 ReactDOM.render(
   <React.StrictMode>
@@ -14,8 +14,8 @@ ReactDOM.render(
       <RecoilDebugger />
       <SnackbarProvider
         anchorOrigin={{
-          vertical: 'bottom',
-          horizontal: 'center'
+          vertical: "bottom",
+          horizontal: "center",
         }}
       >
         <BrowserRouter>
@@ -24,7 +24,7 @@ ReactDOM.render(
       </SnackbarProvider>
     </RecoilRoot>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 )
 
 // If you want to start measuring performance in your app, pass a function

@@ -19,13 +19,13 @@ Next, follow these steps:
 This project makes use of aliases. Instead of imports looking like this:
 
 ```tsx
-import { myUtil } from '../../../utils'
+import { myUtil } from "../../../utils"
 ```
 
 imports are written like so:
 
 ```tsx
-import { myUtil } from '@utils'
+import { myUtil } from "@utils"
 ```
 
 [Read more &rarr;](docs/aliases.md)

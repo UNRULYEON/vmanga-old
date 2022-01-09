@@ -1,5 +1,5 @@
-import { auth } from '@fb'
-import { signOut } from 'firebase/auth'
+import { auth } from "@fb"
+import { signOut } from "firebase/auth"
 
 const Home = () => {
   const onSignOut = () => signOut(auth)

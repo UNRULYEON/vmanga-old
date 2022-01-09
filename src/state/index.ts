@@ -1,1 +1,1 @@
-export { isAuthenticatedState, isAuthenticatingState, userState } from './user'
+export { isAuthenticatedState, isAuthenticatingState, userState } from "./user"

@@ -1,5 +1,5 @@
-import { auth } from '@fb'
-import { GoogleAuthProvider, signInWithRedirect } from 'firebase/auth'
+import { auth } from "@fb"
+import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth"
 
 const provider = new GoogleAuthProvider()
 

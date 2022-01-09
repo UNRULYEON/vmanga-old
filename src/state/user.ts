@@ -1,4 +1,4 @@
-import { atom, selector } from 'recoil'
+import { atom, selector } from "recoil"
 
 type User = {
   uid: string
@@ -9,18 +9,18 @@ type User = {
 }
 
 export const userState = atom<User | undefined>({
-  key: 'userState',
-  default: undefined
+  key: "userState",
+  default: undefined,
 })
 
 export const isAuthenticatingState = atom<boolean>({
-  key: 'isAuthenticatingState',
-  default: true
+  key: "isAuthenticatingState",
+  default: true,
 })
 
 export const isAuthenticatedState = selector<boolean>({
-  key: 'isAuthenticatedState',
+  key: "isAuthenticatedState",
   get: ({ get }) => {
     return !!get(userState)
-  }
+  },
 })

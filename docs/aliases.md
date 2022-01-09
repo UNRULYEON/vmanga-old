@@ -15,13 +15,13 @@ Two formats can be used:
 The difference is that `@aliasA` has no `index.ts` file where everything is re-imported and exported, whereas `@aliasB` does. The import will reference a folder inside of `./aliasA` like so:
 
 ```tsx
-import MyReactComponent from '@aliasA/myReactComponent'
+import MyReactComponent from "@aliasA/myReactComponent"
 ```
 
 With `@aliasB`, an `index.ts` file is used. This file will export anything that is in the folder. This means that imports will just reference the alias:
 
 ```tsx
-import { myUtil } from '@aliasB'
+import { myUtil } from "@aliasB"
 ```
 
 Only the `components` folder uses no `index.ts` file. The other aliases do.
