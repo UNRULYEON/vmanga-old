@@ -1,16 +1,14 @@
 import { auth } from "@fb"
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth"
+// @ts-ignore
+import { Login as LoginComponent } from "doritosxl-login-page"
 
 const provider = new GoogleAuthProvider()
 
 const Login = () => {
   const onLogin = () => signInWithRedirect(auth, provider)
 
-  return (
-    <div>
-      login <button onClick={onLogin}>login with google</button>
-    </div>
-  )
+  return <LoginComponent Header="Login" onClick={onLogin} />
 }
 
 export default Login
