@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*": ["./components/*"],
+      "@fb": ["./fb"],
+      "@hooks": ["./hooks"],
+      "@pages": ["./pages"],
+      "@state": ["./state"],
+      "@theme": ["./theme"],
+      "@utils": ["./utils"]
+    }
+  }
+}
