@@ -1,0 +1,16 @@
+*{
+  background-color: rgb(240, 240, 240);
+}
+
+/* .home{
+  background-color: rgb(240, 240, 240);  
+} */
+
+.homeSkeleton{
+  margin-top:10%;
+  display: grid;
+  justify-content: center;
+  align-content: center;  
+  gap: 10%;
+  grid-auto-flow: column;
+}
